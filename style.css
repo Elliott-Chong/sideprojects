@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+h1, h3{
+    font-family: 'Poppins';
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.nav{
+    text-align: right;
+    height:50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    margin: 0px 20px 0px 10px;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: calc(100vh - 50px);
+}
+.elle{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    /* background-color: blue; */
+    padding: 0px;
+    /* text-align: center; */
+}
+.advancedcontainer{
+    display: grid;
+    margin: 20px 0px;
+    text-align: left;
+    
+    grid-template-columns: 200px 570px;
+    
+}
+
+.normal{
+    width: 580px;
+    height: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.24);
+    border-radius: 30px;
+    padding:10px 15px;
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.normal:focus{
+    outline:none;
+}
+
+
+.search{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 100px;
+    justify-content: center;
+    
+}
+
+input[type='submit'], button[type='submit']{
+    width: 130px;
+    height: 35px;
+    border: none;
+    border-radius: 3px;
+    font-size: 15px;
+}
+
+.advanced{
+    margin: 7px 0px;
+    width: 570px;
+    height: 40px;
+    font-size: 23px;
+    padding: 7px;
+}
+
+#advancedsearch{
+    grid-column: span 2;
+    justify-self: right;
+    margin-top: 10px;
+    background-color: #498CFA;
+    color: white;
+    font-size: 13px;
+}
+
+.elle1{
+    display: flex;
+    flex-direction: row;
+
+
+}
